@@ -1,4 +1,5 @@
-use pyo3::prelude::*;
+extern crate pyo3 as pyo3_crate;
+use pyo3_crate::prelude::*;
 
 /// Formats the sum of two numbers as string.
 #[pyfunction]
